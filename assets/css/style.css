@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #020202;
+    --secondary-color: #FFFFFF;
+    --bg-color: #C4C4C4;
+}
+
+body {
+    font-family: 'PoppinsSB';
+    background-color: gray;
+}
+
+html {
+    font-family: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 137rem;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coln-1 {
+    width: 8.33%;
+}
+
+.coln-2 {
+    width: 16.66%;
+}
+
+.coln-3 {
+    width: 25%;
+}
+
+.coln-4 {
+    width: 33.33%;
+}
+
+.coln-5 {
+    width: 41.66%;
+}
+
+.coln-6 {
+    width: 50%;
+}
+
+.coln-7 {
+    width: 58.33%;
+}
+
+.coln-8 {
+    width: 66.33%;
+}
+
+.coln-9 {
+    width: 75%;
+}
+
+.coln-10 {
+    width: 83.33%;
+}
+
+.coln-11 {
+    width: 91.33%;
+}
+
+.coln-12 {
+    width: 100%;
+}
+
+/* **************Header************ */
+
+header .row {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+}
+header nav {
+    margin-left: auto;
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    color:var(--secondary-color);
+    margin: 0 3.3rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+header .row > a i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-left: 3.3rem;
+}
+/* ******************************** */
