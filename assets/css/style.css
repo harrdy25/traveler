@@ -110,9 +110,9 @@ header .row {
     padding: 2rem 0;
 }
 
-header nav {
+/* header nav {
     margin-left: auto;
-}
+} */
 
 header nav ul {
     list-style-type: none;
@@ -401,14 +401,182 @@ h1 {
 
 /******************WHY*********************/
 
-#why {
-    background-image: url(../images/why-3.avif);
-    background-size: 100% 55rem;
-    background-position: center center;
+#why-select {
+    background: url(../images/why-4.webp);
+    background-size: 100% 54.2rem;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 17rem;
+}
+
+#why-select .main-title h2 {
+    color: var(--secondary-color);
+    margin-top: 2.6rem;
+}
+
+#why-select .main-title p {
+    color: var(--secondary-color);
+    padding-top: 0.6rem;
+}
+
+.why-slider .swiper-slide {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    padding: 4.5rem 0 7rem 2rem;
+    margin-top: 7.6rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.why-slider .why-img {
+    width: 9.5rem;
+    height: 9.7rem;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+.why-slider .why-img img {
+    object-position: center center;
+    object-fit: cover;
+}
+
+.why-slider .why-data h4 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #000000;
+    margin-top: 3.3rem;
+}
+
+.why-slider .why-data p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #858585;
+    margin-top: 1rem;
+}
+
+.why-slider .why-data a {
+    margin-top: 3.8rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    display: inline-block;
+}
+
+.why-select-arrow {
     position: relative;
 }
 
+.why-select-arrow .prev,
+.why-select-arrow .next {
+    z-index: 8;
+    position: absolute;
+    top: -7rem;
+    width: 7rem;
+    height: 6.6rem;
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6.5rem;
+}
+
+.why-select-arrow .prev {
+    left: -13rem;
+    color: #737373;
+}
+
+.why-select-arrow .next {
+    right: -13rem;
+    color: #737373;
+}
+
 /*******************************************************/
+
+
+/***********Our Tour partner Section*********/
+.tour-partner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#our-tour .main-title p {
+    margin-bottom: 0;
+}
+
+#our-tour .tour-partner {
+    padding-top: 6.9rem;
+}
+
+/**************************************/
+
+/***********Client*************************/
+
+.client-container {
+    max-width: 172.6rem;
+    margin-left: 7rem;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+#Client {
+    margin-top: 17.8rem;
+}
+
+#Client h5 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 7rem;
+    letter-spacing: 0.14em;
+    color: #626262;
+}
+
+#Client .main-title h2 {
+    text-align: left;
+}
+
+#Client .main-title p {
+    text-align: left;
+}
+
+.client-select-arrow {
+    position: relative;
+}
+
+.client-select-arrow .prev,
+.client-select-arrow .next {
+    z-index: 8;
+    position: absolute;
+    top: -7rem;
+    width: 7rem;
+    height: 6.6rem;
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6.5rem;
+}
+
+.client-select-arrow .prev {
+    left: -100;
+    color: #737373;
+}
+
+.client-select-arrow .next {
+    right: 0;
+    color: #737373;
+}
+
+/*****************************************/
 
 @media screen and (max-width: 1250px) {
 
@@ -448,7 +616,6 @@ h1 {
         font-size: 2rem;
         color: var(--secondary-color);
         display: inline-block !important;
-        order: 2;
     }
 
     header nav ul>i {
@@ -494,9 +661,14 @@ h1 {
         order: 0;
     }
 
+    header .row .icon {
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+
     header .row .search {
         order: 1;
-        position: absolute;
+        margin-left: auto;
     }
 
     header .row nav {
