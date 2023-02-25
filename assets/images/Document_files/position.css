@@ -1,0 +1,45 @@
+.box{
+    width: 150px;
+    height: 200px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.box2{
+    position: static;
+    top: 200px;
+    left:300px;
+}
+.box2{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.box3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.parent-box{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;
+
+}
+.child-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box4{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+.box5{
+    position: sticky;
+    top: 0;
+}

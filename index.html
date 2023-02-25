@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="row">
+                <a href="#">
+                    <img src="./assets/images/logo.png" class="main-logo" alt="">
+                </a>
+                <nav>
+                    <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+                    <ul id="menu">
+                        <i class="fa-solid fa-xmark" onclick="togglemenu()"></i>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li>
+                            <a href="#">Package
+                                <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Primium</a></li>
+                                <li><a href="#">Vip</a></li>
+                                <li><a href="#">Jenral</a></li>
+                                <li><a href="#">Local</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Destination
+                                <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">New</a></li>
+                                <li><a href="#">Old</a></li>
+                                <li><a href="#">Runing</a></li>
+                                <li><a href="#">Local</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog
+                                <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">One</a></li>
+                                <li><a href="#">Two</a></li>
+                                <li><a href="#">Three</a></li>
+                                <li><a href="#">Four</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass" class="search"
+                        id="search-icon"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-data">
+                    <h1>Make in <br>
+                        your journey.</h1>
+                    <p>Explore the world with what you love beautiful <br> natural beauty.</p>
+                    <form action="" class="form-data">
+                        <select name="Location" class="hero-search">
+                            <option value="0">Location</option>
+                            <option value="surat">Surat</option>
+                            <option value="rajkot">Rajkot</option>
+                            <option value="bhavnagar">Bhavangar</option>
+                        </select>
+                        <select name="Date">
+                            <option value="0">Date</option>
+                            <option value="1">25</option>
+                            <option value="2">17</option>
+                            <option value="3">11</option>
+                        </select>
+                        <select name="People">
+                            <option value="0">People</option>
+                            <option value="1">22</option>
+                            <option value="2">17</option>
+                            <option value="3">11</option>
+                        </select>
+                        <input type="submit" value="Explore now" class="explore">
+                    </form>
+                    <p><span>Popular Place :</span> Bali, Istanbul, Rome, Paris.</p>
+                </div>
+            </div>
+        </section>
+        <section id="explore">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Explore new worlds with <br>
+                        exotic natural scenery</h2>
+                    <p>Explore the world with what you love beautiful natural beauty.</p>
+                </div>
+                <div class="explore-slider-section">
+                    <div class="swiper explore-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-1.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Alpine village, Switzerland.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-2.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-3.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Phong Nha-Ke Bang, Vietnam.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-4.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Kota Kinabalu, Malaysia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-5.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-6.jpg" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="explore-img">
+                                    <img src="./assets/images/explore-7.avif" alt="bali">
+                                </div>
+                                <div class="explore-text">
+                                    <div class="explore-circle">
+                                        <span>“</span>
+                                    </div>
+                                    <h4>Bali, Indonesia.</h4>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section id="why-select">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Why choose Us?</h2>
+                    <p>our services have been trusted by world travelers.</p>
+                </div>
+                <div class="why-select-arrow">
+                    <div class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="swiper why-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/mann.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Best Service</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/price.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Price Guarantee</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Handpicked Hotels</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Best Service</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Price Guarantee</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Handpicked Hotels</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Best Service</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Price Guarantee</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/images/cupes.png" alt="">
+                            </div>
+                            <div class="why-data">
+                                <h4>Handpicked Hotels</h4>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-tour">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Our tour partner</h2>
+                    <p>There are many variation of passage of lorem ipsum available but <br> the majority have suffered
+                        alteration </p>
+                </div>
+                <div class="tour-partner">
+                    <div class="tour-img">
+                        <img src="./assets/images/Katana.png" alt="">
+                    </div>
+                    <div class="tour-img">
+                        <img src="./assets/images/travava.png" alt="">
+                    </div>
+                    <div class="tour-img">
+                        <img src="./assets/images/bigui.png" alt="">
+                    </div>
+                    <div class="tour-img">
+                        <img src="./assets/images/Booking.com.png" alt="">
+                    </div>
+                    <div class="tour-img">
+                        <img src="./assets/images/Jakmaen.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="our-client">
+            <div class="client-container">
+                <div class="client-say">
+                    <p><span>TESTIMONIAL</span></p>
+                    <h2>What our client say</h2>
+                    <p>Create a visual identity for your company and a <br> overall brand</p>
+                </div>
+
+                <div class="our-client-folder">
+                    <div class="our-client-arrow">
+                        <div class="prev2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="next2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="swiper our-client-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/herry1.JPG" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Herry Kuk's</h4>
+                                                    <p>Developer</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/herry2.JPG" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Cristian Daniel</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/man-2.avif" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Kausar Hasan</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/woman-1.avif" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Sara Jay</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/woman-4.avif" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Cristian Daniel</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/woman-3.jpg" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Kausar Hasan</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/herry.jpeg" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Herry Kuk's</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/man-1.avif" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Cristian Daniel</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-clt">
+                                        <div class="client-bio">
+                                            <div class="client-img">
+                                                <img src="./assets/images/man-2.avif" alt="">
+                                            </div>
+                                            <div class="client-data">
+                                                <div class="client-name">
+                                                    <h4>Kausar Hasan</h4>
+                                                    <p>Treveller</p>
+                                                </div>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </a>
+                                                <p>Before we define any approach, we need to deline the brands overall
+                                                    goal.
+                                                    We
+                                                    then need to dive.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Subcribe to get special price</h2>
+                    <p>Dont wanna miss something? subscribe right now and get special <br> promotion and monthly
+                        newsletter</p>
+                </div>
+                <form action="" class="subscribe-form">
+                    <input class="email-form" type="email" name="email" placeholder="Type your  email here">
+                    <input type="button" value="Subscribe" class="Subscribe">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="travelers">
+            <div class="container">
+                <div class="travel">
+                    <div class="travelers">
+                        <div class="tra-img">
+                            <img src="./assets/images/logo2.png" alt="">
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Quisque pharetra
+                                condimentum.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <ul>
+                            <li> <a href="#"><i class="fa-solid fa-location-dot"></i></a> G-2, Subhash Nagar, Surat</li>
+                            <li> <a href="#"><i class="fa-solid fa-envelope"></i></a> +97 94088 55078</li>
+                            <li> <a href="#"><i class="fa-solid fa-phone"></i></a> info@traveller.com</li>
+                        </ul>
+                    </div>
+                    <div class="q-link">
+                        <h4>Quick Link</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow-us">
+                        <h4>Follow Us</h4>
+                        <div class="follow-icon">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2021 UNQ Design</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        window.onscroll = function () {
+            this.scrollY > 20 ?
+                document.getElementById("main-header").classList.add("header-bg") :
+                document.getElementById("main-header").classList.remove("header-bg")
+        }
+
+        function togglemenu() {
+            console.log("jhbj");
+            document.getElementById("menu").classList.toggle("menu-slider")
+
+            if (document.getElementById("menu").classList.contains("menu-slider")) {
+                document.getElementById("search-icon").style.marginLeft = '60px'
+            } else {
+                document.getElementById("search-icon").style.marginLeft = 'auto'
+            }
+        }
+    </script>
+
+    <script>
+        var swiper = new Swiper(".explore-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 12,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+    <script>
+        var swiper1 = new Swiper(".why-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".next",
+                prevEl: ".prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 44,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 66,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 88,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper2 = new Swiper(".client-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".next",
+                prevEl: ".prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 44,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 66,
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 43,
+                },
+            },
+        });
+    </script>
+    <script>
+        var swiper3 = new Swiper(".our-client-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.next2',
+                prevEl: '.prev2',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 0,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
